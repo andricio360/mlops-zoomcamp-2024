@@ -3,8 +3,8 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
-df_jan = pd.read_parquet("/content/yellow_tripdata_2023-01.parquet")
-df_feb = pd.read_parquet("/content/yellow_tripdata_2023-02.parquet")
+df_jan = pd.read_parquet("../data/yellow_tripdata_2023-01.parquet")
+df_feb = pd.read_parquet("../data/yellow_tripdata_2023-02.parquet")
 # printing len of df january columns
 print(len(df_jan.columns))
 
@@ -64,4 +64,5 @@ X_val = dv.transform(val_dicts)
 X_val.shape
 y_pred_val = lr.predict(X_val)
 # Calculate RMSE of validation data
+print(mean_squared_error(y_val, y_pred_val, squared=False))
 print(mean_squared_error(y_val, y_pred_val, squared=False))
