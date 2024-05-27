@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/andrescardenashernandez/Library/CloudStorage/OneDrive-Anheuser-BuschInBev/Projects/mlops-zoomcamp/mlops-zoomcamp-2024/mlruns/0/cde0777e4dbc49c9bbedbb801e2c8edb/artifacts
+end_time: 1716761487370
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cde0777e4dbc49c9bbedbb801e2c8edb
+run_name: bold-eel-754
+run_uuid: cde0777e4dbc49c9bbedbb801e2c8edb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716761473392
+status: 3
+tags: []
+user_id: andrescardenashernandez
